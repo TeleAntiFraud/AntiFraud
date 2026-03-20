@@ -1409,7 +1409,7 @@ print("音频已加载")
 
 async def main():
     pipeline = AudioCropperPipeline(
-        api_key="sk-gclubgfzjdurazdinyfvorkhiekkrzbtqdnhpeylqvvkpgoo",
+        api_key="api-key",
         mcp_server_path="./code_interpreter_mcp.py",
         target_text="我刚才"  # 新增：目标文字内容
     )
